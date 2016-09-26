@@ -1,0 +1,53 @@
+[33mcommit 75406b625e275720b1a55581efbe857942de8c90[m
+Author: INT\twlcbo <lobo.chu@gmail.com>
+Date:   Mon Sep 26 11:19:34 2016 +0800
+
+    Shortened tests by inlining temporary variables.
+
+[33mcommit 1dc121a6843462c17ed9008add980d7aebbac4d5[m
+Author: INT\twlcbo <lobo.chu@gmail.com>
+Date:   Fri Sep 23 14:27:26 2016 +0800
+
+    pass case zero plus non zero
+
+[33mcommit 5ac5a352370a61d4c539896a1a51dd8964f264d3[m
+Author: INT\twlcbo <lobo.chu@gmail.com>
+Date:   Fri Sep 23 14:20:00 2016 +0800
+
+    Finish test non zero plus zero
+
+[33mcommit 0f5c08a8762b815262475b956b572cb92c998db1[m
+Author: INT\twlcbo <lobo.chu@gmail.com>
+Date:   Fri Sep 23 13:56:59 2016 +0800
+
+    Remove vim backfiles which is annoying
+
+[33mcommit 5c9d2582412d8edd4ab7c5eb05cca944019eb28a[m
+Author: INT\twlcbo <lobo.chu@gmail.com>
+Date:   Fri Sep 23 13:47:03 2016 +0800
+
+    zeroPlusZero test passed
+
+[33mcommit fa217124192f05007e07644415eb4f7155b7fc90[m
+Author: Lobo Chu <Lobo.Chu@audatex.com>
+Date:   Thu Sep 22 15:37:54 2016 +0800
+
+    rename gitignore to correct file name
+
+[33mcommit 142b108bc3ae9cead9ad84488412369632bef5f3[m
+Author: Lobo Chu <Lobo.Chu@audatex.com>
+Date:   Thu Sep 22 14:46:27 2016 +0800
+
+    Removed scaffolding tests; env is ready to use
+
+[33mcommit 4bc82c29a5074d14295e2ae539707584c05651ad[m
+Author: Lobo Chu <Lobo.Chu@audatex.com>
+Date:   Thu Sep 22 11:58:58 2016 +0800
+
+    We now separate prodction source code from test source code , cool
+
+[33mcommit dc9621c6817b87d5332e8c58a4e99a8fb618b973[m
+Author: U-INT\twlcbo <twlcbo@TWTA-TB-060.int.audatex.com>
+Date:   Thu Sep 22 11:22:04 2016 +0800
+
+    Empty project

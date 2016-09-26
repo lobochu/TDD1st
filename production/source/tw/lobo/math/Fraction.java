@@ -5,13 +5,16 @@ package tw.lobo.math;
  */
 public class Fraction {
     private int intgerValue;
+    private final int denominator;
 
     public Fraction(int intgerValue) {
         this.intgerValue = intgerValue;
+        this.denominator = 1;
     }
 
     public Fraction(int numerator, int denominator) {
-
+        this.intgerValue = numerator;
+        this.denominator = denominator;
     }
 
     public Fraction plus(Fraction that) {
@@ -29,6 +32,6 @@ public class Fraction {
     }
 
     public int getDenominator() {
-        return 5;
+        return this.denominator;
     }
 }

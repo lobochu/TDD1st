@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d5e695-f799-4a75-9b3d-357d7b6078d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" afterPath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
     </list>
@@ -24,12 +23,12 @@
     <favorites_list name="TDD1st" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="249">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,17 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,16 +69,23 @@
       <list>
         <option value="$PROJECT_DIR$/test/source/tw/lobo/setup/test/HookupTest.java" />
         <option value="$PROJECT_DIR$/production/source/tw/lobo/setup/HookUp.java" />
-        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
         <option value="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
+        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="1150" />
+    <option name="x" value="150" />
+    <option name="y" value="91" />
     <option name="width" value="1492" />
-    <option name="height" value="989" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -111,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,10 +132,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDD1st" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TDD1st" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -519,18 +542,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddFractionTest_zeroPlusZero - 2016.09.23 at 11h 50m 11s.xml">
-      <configuration name="AddFractionTest.zeroPlusZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddFractionTest_zeroPlusZero - 2016.09.23 at 11h 50m 52s.xml">
-      <configuration name="AddFractionTest.zeroPlusZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddFractionTest_zeroPlusZero - 2016.09.23 at 11h 52m 08s.xml">
-      <configuration name="AddFractionTest.zeroPlusZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddFractionTest_zeroPlusZero - 2016.09.23 at 13h 46m 23s.xml">
-      <configuration name="AddFractionTest.zeroPlusZero" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddFractionTest_zeroPlusZero - 2016.09.23 at 14h 10m 20s.xml">
       <configuration name="AddFractionTest.zeroPlusZero" configurationId="JUnit" />
     </history-entry>
@@ -549,9 +560,21 @@
     <history-entry file="com_lobo_in_TDD1st - 2016.09.23 at 14h 25m 23s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.26 at 11h 06m 47s.xml">
+      <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.26 at 11h 13m 58s.xml">
+      <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.26 at 11h 30m 43s.xml">
+      <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.26 at 11h 37m 30s.xml">
+      <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="1150" width="1492" height="989" extended-state="0" />
+    <frame x="150" y="91" width="1492" height="927" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -562,11 +585,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="254" y="594" width="1480" height="458" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.354798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23609227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -577,7 +601,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,14 +641,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
-    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/setup/test/HookupTest.java" />
-    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/setup/HookUp.java" />
     <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="450">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -635,13 +653,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lobo/Main.java" />
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/setup/test/HookupTest.java" />
+    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/setup/HookUp.java" />
+    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

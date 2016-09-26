@@ -12,6 +12,7 @@ public class Fraction {
 
     public Fraction plus(Fraction that) {
         this.intgerValue += that.intValue();
+//        return new Fraction(this.intgerValue + that.intValue());
         return this;
     }
 

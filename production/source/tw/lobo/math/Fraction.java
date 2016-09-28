@@ -17,7 +17,6 @@ public class Fraction {
     }
 
     public Fraction plus(Fraction that) {
-//        this.intgerValue += that.intValue();
         return new Fraction(this.numerator+ that.numerator, this.denominator);
     }
 
@@ -39,7 +38,7 @@ public class Fraction {
         if (other instanceof Fraction) {
             Fraction that = (Fraction) other;
             return this.numerator == that.numerator
-                    && this.denominator == that.numerator;
+                    && this.denominator == that.denominator;
         }
         return false;
     }

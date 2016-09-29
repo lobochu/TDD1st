@@ -30,6 +30,11 @@ public class Fraction {
     }
 
     @Override
+    public int hashCode() {
+        return numerator * 19 + denominator;
+    }
+
+    @Override
     public boolean equals(Object other) {
         if (other instanceof Fraction) {
             Fraction that = (Fraction) other;

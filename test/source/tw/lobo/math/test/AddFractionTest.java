@@ -26,17 +26,17 @@ public class AddFractionTest {
 
     @Test
     public void zeroPlauNonZero() throws Exception {
-        assertEquals(5, new Fraction(0).plus(new Fraction(5)).intValue());
+        assertEquals(new Fraction(5), new Fraction(0).plus(new Fraction(5)));
     }
 
     @Test
     public void nonTrivialButCommonDenominator() throws Exception {
-        Fraction sum = new Fraction(1, 5).plus(new Fraction(2, 5));
-        assertEquals(new Fraction(3, 5), sum);
+        assertEquals(new Fraction(3, 5), new Fraction(1, 5).plus(new Fraction(2, 5)));
     }
 
     @Test
     public void zeroPlusZero() throws Exception {
-        assertEquals(0, new Fraction(0).plus(new Fraction(0)).intValue());
+        assertEquals(new Fraction(0), new Fraction(0).plus(new Fraction(0)));
     }
+
 }

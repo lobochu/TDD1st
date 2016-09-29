@@ -15,6 +15,7 @@ public class FractionEqualsTest {
         assertNotEquals(new Fraction(1, 5), new Fraction(2, 5));
     }
 
+
     @Test
     public void wholeNumberNotEqualToDifferentWholeNumber() throws Exception {
         assertNotEquals(new Fraction(6), new Fraction(5));

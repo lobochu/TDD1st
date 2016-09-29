@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d5e695-f799-4a75-9b3d-357d7b6078d3" name="Default" comment="Wrote a single sanity chekc for Fraction.equals()">
+    <list default="true" id="08d5e695-f799-4a75-9b3d-357d7b6078d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
     </list>
     <ignored path="TDD1st.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,24 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FractionEqualsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +61,7 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -72,10 +73,10 @@
       <list>
         <option value="$PROJECT_DIR$/test/source/tw/lobo/setup/test/HookupTest.java" />
         <option value="$PROJECT_DIR$/production/source/tw/lobo/setup/HookUp.java" />
-        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
         <option value="$PROJECT_DIR$/test/lib/junit-4.12.jar!/org/junit/Assert.class" />
         <option value="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
         <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" />
+        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
       </list>
     </option>
   </component>
@@ -133,6 +134,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/production/source/tw/lobo" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -519,38 +521,45 @@
       <option name="project" value="LOCAL" />
       <updated>1475076287823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I feel confident enough that equals() works, except for reducing.">
+      <created>1475117308021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1475117308021</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 08m 30s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 10h 53m 31s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 11m 22s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 10h 57m 29s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 12m 40s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 01m 49s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 15m 52s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 02m 04s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 17m 37s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 02m 52s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 19m 11s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 03m 44s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 20m 24s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 14m 34s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.28 at 23h 22m 13s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 14m 59s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 10h 30m 31s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 16m 02s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 10h 43m 26s.xml">
+    <history-entry file="com_lobo_in_TDD1st - 2016.09.29 at 11h 16m 19s.xml">
       <configuration name="com.lobo in TDD1st" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -565,7 +574,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="159" y="328" width="1474" height="452" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="163" y="338" width="1474" height="452" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35353535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -617,7 +626,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Wrote a single sanity chekc for Fraction.equals().&#10;" />
     <MESSAGE value="Wrote  whole number and different  numerator &amp; denominator test cases.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote  whole number and different  numerator &amp; denominator test cases.&#10;" />
+    <MESSAGE value="I feel confident enough that equals() works, except for reducing." />
+    <option name="LAST_COMMIT_MESSAGE" value="I feel confident enough that equals() works, except for reducing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,13 +726,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,10 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java">
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

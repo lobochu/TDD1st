@@ -24,10 +24,6 @@ public class Fraction {
         return this.numerator;
     }
 
-    public int getNumerator() {
-        return this.numerator;
-    }
-
     @Override
     public String toString() {
         return String.format("%d/%d", numerator, denominator);
@@ -43,7 +39,4 @@ public class Fraction {
         return false;
     }
 
-    public int getDenominator() {
-        return this.denominator;
-    }
 }

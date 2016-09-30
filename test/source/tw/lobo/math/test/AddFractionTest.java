@@ -1,6 +1,7 @@
 package tw.lobo.math.test;
 
 import org.junit.Test;
+import org.junit.runner.JUnitCore;
 import tw.lobo.math.Fraction;
 
 import static org.junit.Assert.assertEquals;
@@ -39,4 +40,8 @@ public class AddFractionTest {
         assertEquals(new Fraction(0), new Fraction(0).plus(new Fraction(0)));
     }
 
+    @Test
+    public void differentDenominator() throws Exception {
+        assertEquals(new Fraction(5, 6), new Fraction(1, 2).plus(new Fraction(1, 3)));
+    }
 }

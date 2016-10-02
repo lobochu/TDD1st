@@ -16,6 +16,12 @@ public class ReduceFractionTest {
     }
 
     @Test
+    public void reduceTwoWholeNumber() throws Exception {
+        assertEquals(new Fraction(6), new Fraction(24, 4));
+
+    }
+
+    @Test
     public void alreadyInLowestTerms() throws Exception {
         assertEquals(new Fraction(3, 4), new Fraction(3, 4));
     }

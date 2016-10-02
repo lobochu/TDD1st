@@ -22,6 +22,12 @@ public class ReduceFractionTest {
     }
 
     @Test
+    public void reduceZero() throws Exception {
+        assertEquals(new Fraction(0), new Fraction(0, 123435));
+
+    }
+
+    @Test
     public void alreadyInLowestTerms() throws Exception {
         assertEquals(new Fraction(3, 4), new Fraction(3, 4));
     }

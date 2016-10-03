@@ -45,4 +45,13 @@ public class GreatestCommonDivisorTest {
         assertEquals(4, NumberTheory.gcd(-24, -28));
     }
 
+    @Test
+    public void zero() throws Exception {
+        //Explosive test, type a file expected value and based on the result to update
+        //correct expected result.
+        assertEquals(1, NumberTheory.gcd(1, 0));
+        assertEquals(5, NumberTheory.gcd(0, 5));
+        assertEquals(0, NumberTheory.gcd(0, 0));
+
+    }
 }

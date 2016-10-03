@@ -13,6 +13,7 @@ public class Fraction {
 
     public Fraction(int numerator, int denominator) {
         int signOfDenominator = denominator < 0 ? -1 : 1;
+        //CONTRACT: gcd() never returns 0
         int gcd = NumberTheory.gcd(numerator, denominator) * signOfDenominator;
         this.denominator = denominator / gcd;
         this.numerator = numerator / gcd;

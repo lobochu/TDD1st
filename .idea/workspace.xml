@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dcaaaf98-f63a-4ca2-9cbf-0650aeea39d8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" afterPath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/GreatestCommonDivisorTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/GreatestCommonDivisorTest.java" />
     </list>
     <ignored path="TDD1st.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreatestCommonDivisorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/GreatestCommonDivisorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,8 +58,8 @@
       <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -67,9 +78,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
         <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" />
         <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
+        <option value="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
+        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/GreatestCommonDivisorTest.java" />
       </list>
     </option>
   </component>
@@ -312,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475465993129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Last, most complicated test for add fractions, passes.&#10;&#10;&#10;">
+      <created>1475466063962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475466063962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -326,6 +345,18 @@
       <configuration name="FractionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FractionTest - 2016.10.03 at 11h 40m 08s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest - 2016.10.03 at 11h 42m 52s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest - 2016.10.03 at 11h 45m 28s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest - 2016.10.03 at 11h 45m 45s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest - 2016.10.03 at 11h 46m 31s.xml">
       <configuration name="FractionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -349,7 +380,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -372,7 +403,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fraction now shifts negative sign away from the denominator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fraction now shifts negative sign away from the denominator" />
+    <MESSAGE value="Last, most complicated test for add fractions, passes.&#10;&#10;&#10;" />
+    <MESSAGE value="Explore what gcd does with 0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Explore what gcd does with 0." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -383,14 +416,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -402,7 +427,23 @@
     <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/GreatestCommonDivisorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>

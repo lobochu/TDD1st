@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcaaaf98-f63a-4ca2-9cbf-0650aeea39d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" afterPath="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" afterPath="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
     </list>
     <ignored path="TDD1st.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,17 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddFractionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FractionEqualsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FractionEqualsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -70,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java" />
         <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/FractionEqualsTest.java" />
+        <option value="$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java" />
       </list>
     </option>
   </component>
@@ -305,6 +305,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475465147802</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fraction now shifts negative sign away from the denominator">
+      <created>1475465993129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475465993129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -315,6 +323,9 @@
       <configuration name="FractionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FractionTest - 2016.10.03 at 11h 38m 32s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest - 2016.10.03 at 11h 40m 08s.xml">
       <configuration name="FractionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -372,14 +383,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/source/tw/lobo/math/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -392,6 +395,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/source/tw/lobo/math/test/AddFractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
           <folding />
         </state>
       </provider>
